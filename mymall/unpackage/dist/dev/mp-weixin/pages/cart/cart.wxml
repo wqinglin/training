@@ -1,0 +1,1 @@
+<view class="_div"><view>{{msg}}</view><button data-event-opts="{{[['tap',[['btn',['$event']]]]]}}" bindtap="__e">改变</button></view>

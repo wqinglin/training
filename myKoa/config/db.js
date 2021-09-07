@@ -1,4 +1,3 @@
-
 const database = 'myshop'  // 数据库名称
 const username = 'root'  // 数据库用户名
 const password = "123456"  // 数据库密码

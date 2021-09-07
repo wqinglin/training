@@ -1,0 +1,152 @@
+
+page {
+	background-color: #f8f8f8;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.data-v-4906f7b7 .mix-empty .default {
+  padding-top: 38vh;
+}
+.top.data-v-4906f7b7 {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 95;
+  background-color: #fff;
+}
+.sort-bar.data-v-4906f7b7 {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 76rpx;
+  padding: 4rpx 0 4rpx 4rpx;
+  padding-left: 10rpx;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.sort-bar .item.data-v-4906f7b7 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100%;
+  font-size: 28rpx;
+  color: #333;
+  position: relative;
+  overflow: hidden;
+}
+.sort-bar .item.active.data-v-4906f7b7 {
+  color: #ff536f;
+  font-weight: 700;
+}
+.sort-bar .item.active.data-v-4906f7b7:after {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-28rpx);
+          transform: translateX(-28rpx);
+  content: '';
+  width: 56rpx;
+  height: 4rpx;
+  background-color: #ff536f;
+  border-radius: 10px;
+}
+.sort-bar .item.active .mix-icon.active.data-v-4906f7b7 {
+  color: #ff536f;
+}
+.sort-bar .item.last.data-v-4906f7b7:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 2rpx;
+  height: 40rpx;
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.6);
+}
+.sort-bar .icon-wrap.data-v-4906f7b7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding-left: 8rpx;
+}
+.sort-bar .mix-icon.data-v-4906f7b7 {
+  font-size: 14rpx;
+  color: #bbb;
+}
+.sort-bar .btn.data-v-4906f7b7 {
+  height: 68rpx;
+  padding-left: 16rpx;
+  padding-right: 20rpx;
+}
+.sort-bar .btn .icon-hengxiangliebiao.data-v-4906f7b7,
+.sort-bar .btn .icon-shuxiangliebiao.data-v-4906f7b7 {
+  font-size: 40rpx;
+  color: #333;
+}
+.cate-bar.data-v-4906f7b7:after {
+  border-color: #f5f5f5;
+}
+.cate-wrap.data-v-4906f7b7 {
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 96rpx;
+  padding-bottom: 4rpx;
+}
+.cate-wrap .fill-view.data-v-4906f7b7 {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width: 20rpx;
+  height: 20rpx;
+}
+.cate-wrap .fill-view.data-v-4906f7b7:last-child {
+  width: 10rpx;
+}
+.cate-wrap .item.data-v-4906f7b7 {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  height: 58rpx;
+  padding: 0 28rpx;
+  margin-right: 20rpx;
+  font-size: 22rpx;
+  color: #333;
+  text-align: center;
+  line-height: 58rpx;
+  background-color: #f5f5f5;
+  border-radius: 100px;
+}
+.cate-wrap .active.data-v-4906f7b7 {
+  color: #ff536f;
+  background-color: #fff8f4;
+  font-weight: 700;
+}
+

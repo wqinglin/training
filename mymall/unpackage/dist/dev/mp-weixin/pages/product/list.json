@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "usingComponents": {
+    "mescroll-body": "/uni_modules/mescroll-uni/components/mescroll-body/mescroll-body",
+    "mix-loading": "/components/mix-loading/mix-loading",
+    "page-header": "/components/list-page-header",
+    "product-list": "/components/product-list"
+  }
+}

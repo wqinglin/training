@@ -1,4 +1,3 @@
-
 const Sequelize = require('sequelize');
 const dbConfig = require('../config/db')
 const fs = require('fs')
@@ -13,6 +12,7 @@ fs.readdirSync(__dirname)
     .filter(file => file !== 'index.js')
     .forEach(file => {
         const model = sequelize.import(path.join(__dirname, file))  //重要重要重要重要重要重
+        console.log(model);
         db[model.name + 'Model'] = model
     })
 
@@ -20,7 +20,6 @@ fs.readdirSync(__dirname)
 Object.keys(db).forEach(name => {
     db[name].associate && db[name].associate(db)  // 执行每个模型表的关联回调函数
 })
-
 db.sequelize = sequelize
 
 sequelize.sync()  // 同步数据库

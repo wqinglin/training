@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "儿童服装电商",
+  "usingComponents": {
+    "load-more": "/components/load-more/load-more",
+    "page-header": "/components/page-header",
+    "product-list": "/components/product-list"
+  }
+}

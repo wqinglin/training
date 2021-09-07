@@ -19,7 +19,7 @@ app.use(async (ctx, next) => {
     "X-Requested-With,content-type,Authorization"
   ); // 设置接收携带Authorization的请求
   if (ctx.method == "OPTIONS") {
-    // 设置跨越, 预连接 :传输类型 OPTIONs
+    // 设置跨域, 预连接 :传输类型 OPTIONs
 
     ctx.body = 200;
   } else {
